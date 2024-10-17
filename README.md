@@ -13,4 +13,19 @@ Welcome to **Sunil's Chatbot**, a user-friendly chatbot powered by OpenAI's GPT-
   - Adjust the temperature to control the creativity level of the chatbot's responses.
 - **Clear Chat History**: Allows resetting the conversation history easily.
 
+## Running the Application
+
+To run the chatbot application, use the following command:
+```
+streamlit run App.py
+```
+
+The chatbot interface will open in your default browser. You can interact with the bot by typing messages into the chat input box and customizing the settings in the sidebar.
+
+## Usage
+
+Token Limit: Use the slider in the sidebar to adjust the maximum number of tokens (word count) per message.
+Response Creativity: Adjust the temperature slider to control how creative or random the AI’s responses are. A lower value makes responses more focused, while a higher value makes them more creative.
+Clear History: You can reset the conversation history using the "Clear Chat History" button in the sidebar.
+
 
