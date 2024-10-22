@@ -11,11 +11,19 @@ Welcome to **Sunil's Chatbot**, a user-friendly chatbot powered by OpenAI's GPT-
 
 ## Running the Application
 
+Set your openai api key
+```
+export OPENAI_API_KEY=<your-openai-key>
+```
+
 To run the chatbot application, use the following command:
 ```
 streamlit run App.py
 ```
 
 The chatbot interface will open in your default browser. You can interact with the bot by typing messages into the chat input box and customizing the settings in the sidebar.
+
+![Sunil's Chatbot](assets/sunils-chatbot.png "Sunil's Chatbot")
+
 
 
